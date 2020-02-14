@@ -21,4 +21,11 @@ In this report, two datasets will be used. The first one is the crime.csv which 
 The Second dataset is the location data, which combined with a list of Neighborhoods and their GPS location. When I’m doing the research, there’ no direct files that contain this information, so I manually create a Location.xlmx file getting the location data from Wikipedia. The purpose of getting this location data is helping to combine the crime data with the Foursquare location data.
 
 
+### Data CleanUp:
+
+Based on the Vancouver Neighborhoods that identified in Location.xlsx dataset, some rows in crime.csv will be deleted (ie. rows that have Neighborhood values: ‘Musqueam’, ‘Stanley Park’, or ‘NaN’).
+
+Also, in Neighborhood column of crime.csv table, ‘Central Business District’ will be changed to ‘Downtown’ just for convenience. 
+
+
 
